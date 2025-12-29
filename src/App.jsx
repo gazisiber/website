@@ -1,14 +1,19 @@
-import { ThemeProvider } from './context/ThemeContext';
-import Soon from './components/Soon';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ComingSoon from './components/ComingSoon'
+import MainSite from './components/MainSite'
 
 function App() {
     return (
-        <ThemeProvider>
-            <div className="min-h-screen">
-                <Soon />
-            </div>
-        </ThemeProvider>
-    );
+        <Router>
+            <Routes>
+                {/* Coming Soon - Ana sayfa */}
+                <Route path="/" element={<ComingSoon />} />
+
+                {/* Secret Page - Gerçek site */}
+                <Route path="/secret-page82" element={<MainSite />} />
+            </Routes>
+        </Router>
+    )
 }
 
-export default App;
+export default App

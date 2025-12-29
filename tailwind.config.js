@@ -7,21 +7,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        mono: {
-          base: '#000000',      // Tam Siyah (Zemin)
-          surface: '#0a0a0a',   // Çok koyu gri (Kart Zeminleri)
-          border: '#262626',    // Silik Çerçeveler
-          white: '#ffffff',     // Ana Metin / Logo
-          gray: '#a3a3a3',      // İkincil Metin
+        ergenekon: {
+          red: '#8B0000',      // Ergenekon Logosu Koyu Kırmızı
+          bright: '#DC2626',   // Butonlar için Parlak Kırmızı
+          dark: '#050505',     // Çok koyu siyah (Arka plan)
+          panel: '#121212',    // Kart arka planları
+          silver: '#E5E7EB',   // Metin rengi
         }
       },
       fontFamily: {
-        tech: ['Chakra Petch', 'sans-serif'], // Başlıklar
-        mono: ['JetBrains Mono', 'monospace'], // Kod Yazıları
-        sans: ['Inter', 'sans-serif'],        // Düz Yazılar
+        orbitron: ['Orbitron', 'sans-serif'], // Başlık Fontu
+        exo: ['Exo 2', 'sans-serif'],         // Yazı Fontu
       },
-      animation: {
-        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      backgroundImage: {
+        // GÜNCELLENDİ: Senin belirlediğin görsel ismi
+        'hero-pattern': "url('/images/hero-bg.jpg')",
       }
     },
   },
