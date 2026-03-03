@@ -95,9 +95,9 @@ export default function SoonV3() {
                 <div className="mb-4">
                     <h1
                         className="glitch text-7xl md:text-9xl font-tech font-bold text-white tracking-tight hover:tracking-widest transition-all duration-500 inline-block cursor-default"
-                        data-text="GAZISIBER v3.0"
+                        data-text="GAZISIBER 3.0"
                     >
-                        GAZISIBER v3.0
+                        GAZISIBER 3.0
                     </h1>
                 </div>
 
